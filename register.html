@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="images/favicon.png" type="image/png">
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+	<!-- Roboto -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+	<!-- Donamaid CSS -->
+	<link rel="stylesheet" href="css/donamaid.css">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+	<title>Registre-se | Donamaid</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row d-flex justify-content-center align-items-center">
+			<div class="col-lg-11 col-md-12 text-center">
+
+				<div class="mt-5 mb-5">
+					<img src="images/logo.svg" alt="Logo Donamaid" height="53px">
+				</div>
+
+				<div class="box-register d-flex flex-column justify-content-center">
+					<div class="row no-gutters">
+						<div class="col-md-5 bg-fade d-flex flex-column justify-content-center align-items-center">
+
+							<input type="file" class="d-none" id="photo">
+							<label for="photo" class="photo d-flex  flex-column justify-content-center align-items-center">
+								<img src="images/icons/camera.png" height="25px" alt="edite sua foto">
+								<small class="text-purple mt-2">edite sua foto</small>
+							</label>
+
+							<h4 class="mt-5 text-white"><b>CADATRE-SE</b></h4>
+							<small class="text-white">ou conecte-se com</small>
+
+							<button class="btn-social radius-3 bg-facebook mt-4">
+								<i class="fab fa-facebook-f i-social"></i> <b>FACEBOOK</b>
+							</button>
+
+							<button class="btn-social radius-3 bg-google mt-3 mb-4">
+								<i class="fab fa-google-plus-g i-social"></i> <b>GOOGLE</b>
+							</button>
+						</div>
+
+						<div class="col-md-7">
+							<div class="row ml-5 mr-5 mt-4 mb-4 text-left">
+								<div class="col-md-6">
+									<div class="input-group mb-2 mt-1">
+										<label for="cpf" class="input-group-icon input-uncheck"></label>
+										<input type="text" name="cpf" id="cpf" class="form-dnm with-icon" placeholder="CPF">
+									</div>
+								</div>
+
+								<div class="col-md-6">
+									<div class="input-group mb-2 mt-1">
+										<label for="cnpj" class="input-group-icon input-uncheck"></label>
+										<input type="text" name="cnpj" id="cnpj" class="form-dnm with-icon" placeholder="CNPJ">
+									</div>
+								</div>
+
+								<div class="col-12">
+									<div class="input-group mb-2 mt-1">
+										<input type="text" name="name" class="form-dnm" placeholder="Nome *" autocomplete="off" required>
+									</div>
+								</div>
+
+								<div class="col-12">
+									<div class="input-group mb-2 mt-1">
+										<input type="text" name="birth" class="form-dnm" placeholder="Data de Nascimento">
+									</div>
+								</div>
+
+								<div class="col-12">
+									<div class="input-group mb-2 mt-1">
+										<input type="email" name="email" class="form-dnm" placeholder="E-mail *" autocomplete="off" required>
+									</div>
+								</div>
+
+								<div class="col-md-6">
+									<div class="input-group mb-2 mt-1">
+										<input type="password" name="password" class="form-dnm" placeholder="Senha *" required>
+									</div>
+								</div>
+
+								<div class="col-md-6">
+									<div class="input-group mb-2 mt-1">
+										<input type="password" name="password_confirm" class="form-dnm" placeholder="Confirmar senha *" required>
+									</div>
+								</div>
+
+								<div class="col-12 mt-3 mb-2 text-fit">Como conheceu a donamaid?</div>
+
+								<div class="col-lg-4 col-6">
+									<input class="dnm-check-input" type="radio" name="from" id="from-facebook">
+									<label class="dnm-check-label" for="from-facebook">Facebook</label>
+									<div class="radio"></div>
+								</div>
+
+								<div class="col-lg-4 col-6">
+									<input class="dnm-check-input" type="radio" name="from" id="from-google">
+									<label class="dnm-check-label" for="from-google">Google</label>
+									<div class="radio"></div>
+								</div>
+
+								<div class="col-lg-4 col-6">
+									<input class="dnm-check-input" type="radio" name="from" id="from-instagram">
+									<label class="dnm-check-label" for="from-instagram">Instagram</label>
+									<div class="radio"></div>
+								</div>
+
+								<div class="col-lg-4 col-6">
+									<input class="dnm-check-input" type="radio" name="from" id="from-indicacao">
+									<label class="dnm-check-label" for="from-indicacao">Indicação</label>
+									<div class="radio"></div>
+								</div>
+
+								<div class="col-lg-4 col-6">
+									<input class="dnm-check-input" type="radio" name="from" id="from-jornal">
+									<label class="dnm-check-label" for="from-jornal">Jornal</label>
+									<div class="radio"></div>
+								</div>
+
+								<div class="col-lg-4 col-6">
+									<input class="dnm-check-input" type="radio" name="from" id="from-tv-radio">
+									<label class="dnm-check-label" for="from-tv-radio">TV/Rádio</label>
+									<div class="radio"></div>
+								</div>
+
+
+								<div class="col-12 mt-3">
+									<input class="dnm-check-input" type="checkbox" name="terms" id="terms">
+									<label class="dnm-check-label" for="terms">Li e aceito os termos de uso</label>
+									<div class="radio check"></div>
+								</div>
+
+								<div class="col-12 mt-3">
+									<button class="btn-dmn submit">cadastrar</button>
+								</div>
+
+
+								
+								<div class="col-12 text-center text-muted-dmn mt-3">
+									<small>Já é cadastrado? <b>Faça <a href="login.html">login</a></b>.</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- Mask Plugin -->
+	<script src="node_modules/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$("#cpf").mask('000.000.000-00', {reverse: true});
+			$("#cnpj").mask('00.000.000/0000-00', {reverse: true});
+			$("input[name='birth']").mask('00/00/0000');
+		});
+
+		$("#cpf").focus(function(){
+			$("#cnpj").val('');
+			$("#cnpj").prev('label').removeClass('input-check').addClass('input-uncheck');
+
+			$(this).prev('label').removeClass('input-uncheck').addClass('input-check');
+		});
+
+		$("#cpf").focusout(function(){
+			if($(this).val() == "")
+				$(this).prev('label').removeClass('input-check').addClass('input-uncheck');
+		});
+
+		$("#cnpj").focus(function(){
+			$("#cpf").val('');
+			$("#cpf").prev('label').removeClass('input-check').addClass('input-uncheck');
+
+			$(this).prev('label').removeClass('input-uncheck').addClass('input-check');
+		});
+
+		$("#cnpj").focusout(function(){
+			if($(this).val() == "")
+				$(this).prev('label').removeClass('input-check').addClass('input-uncheck');
+		});
+	</script>
+</body>
+</html>

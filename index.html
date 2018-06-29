@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="images/favicon.png" type="image/png">
+	
+	<!-- Ion Icons -->
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+	<!-- Roboto -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+	<!-- Donamaid CSS -->
+	<link rel="stylesheet" href="css/donamaid.css">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+	<title>Avaliações | Donamaid</title>
+</head>
+<body>
+	<div class="wrapper">
+		<nav class="sidebar">
+			<ul class="nav d-flex flex-column">
+				<div class="bg-fade d-flex flex-column justify-content-center align-items-center">
+					<img src="images/logo-white.svg" height="30px">
+				</div>
+
+				<div class="container">
+					<div class="profile-menu mt-3 ml-3 d-inline-flex">
+						<div class="photo-user">
+							<img src="images/users/default.png">
+						</div>
+						<div class="ml-3 d-flex flex-column justify-content-center">
+							<span>Bem vinda,</span>
+							<span>
+								<b>Donie Maker</b>
+								<div class="btn-group" role="group">
+									<div id="options" class="dropdown-toggle pointer" data-toggle="dropdown"><i class="icon ion-chevron-down text-purple"></i></div>
+									<div class="dropdown-menu  dropdown-menu-right" aria-labelledby="options">
+										<a class="dropdown-item" href="#"><i class="icon ion-person ml-0 text-purple"></i> perfil</a>
+										<a class="dropdown-item" href="login.html"><i class="icon ion-power ml-0 text-purple"></i> sair</a>
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+
+					<hr>
+
+					<li class="nav-item"><img src="images/icons/dashboard.png">DASHBOARD</li>
+					<li class="nav-item category">USUÁRIOS</li>
+					<li class="nav-item"><img src="images/icons/doners.png">DONERS</li>
+					<li class="nav-item"><img src="images/icons/clients.png">CLIENTES</li>
+					<li class="nav-item"><img src="images/icons/diarist.png">DIARISTAS</li>
+					<li class="nav-item category">CONTROLE</li>
+					<li class="nav-item"><img src="images/icons/orders.png">PEDIDOS</li>
+					<li class="nav-item"><img src="images/icons/subscriptions.png">ASSINATURAS</li>
+					<li class="nav-item"><img src="images/icons/cities.png">CIDADES</li>
+					<li class="nav-item"><img src="images/icons/note.png">NOTA DAS PARCERIAS</li>
+					<li class="nav-item"><img src="images/icons/wallet.png">CARTEIRA DA EMPRESA</li>
+					<li class="nav-item"><img src="images/icons/transfers.png">TRANSFERÊNCIAS</li>
+
+					<li class="nav-item mt-5"><small>2018 &bull; Donamaid</small></li>
+				</div>
+			</ul>
+		</nav>
+
+		<div class="backdrop"></div>
+
+		<div class="content pl-3 pr-3">
+			<nav class="menu-content d-inline-flex align-items-center">
+				<h1 class="icon ion-navicon mb-0 pointer" id="sidebarCollapse"></h1>
+
+				<ul class="list-inline mb-0">
+					<li class="list-inline-item"><i class="icon ion-android-notifications-none"></i></li>
+					<li class="list-inline-item"><i class="icon ion-ios-email-outline"></i></li>
+					<li class="list-inline-item"><i class="icon ion-ios-person"></i></li>
+				</ul>
+			</nav>
+
+			<div class="box-content p-4">
+				<div class="row pt-4">
+					<div class="col-lg-3">
+						<input type="file" name="photo" class="d-none" id="photo">
+						<label for="photo" class="submit-photo d-flex flex-column align-items-center justify-content-center">
+							<h1 class="icon ion-ios-cloud-upload-outline"></h1>
+							<h6>enviar foto</h6>
+						</label>
+					</div>
+
+					<div class="col-lg-9">
+						<h6 class="text-purple"><b>PESSOAL</b></h6>
+
+						<div class="row text-medium">
+							<div class="col-md-12 mt-1 mb-2">
+								<b>Nome:</b> Maria Smaniotto
+							</div>
+
+							<div class="col-md-8 mt-1 mb-2">
+								<b>Data de Nascimento:</b> 20/03/1989
+							</div>
+							<div class="col-md-4 mt-1 mb-2">
+								<b>CPF:</b> 018.985.122-06
+							</div>
+
+							<div class="col-md-4 mt-1 mb-2">
+								<b>RG:</b> 5096235206
+							</div>
+							<div class="col-md-4 mt-1 mb-2">
+								<b>Orgão Expeditor:</b> SJS
+							</div>
+							<div class="col-md-4 mt-1 mb-2">
+								<b>Expedição:</b> 15/04/2006
+							</div>
+
+							<div class="col-md-8 mt-1 mb-2">
+								<b>Ocupação:</b> do lar
+							</div>
+							<div class="col-md-4 mt-1 mb-2">
+								<b>MEI:</b> 54846546879
+							</div>
+
+							<div class="col-md-4 mt-1 mb-2">
+								<b>Banco:</b> Banco do Brasil
+							</div>
+							<div class="col-md-4 mt-1 mb-2">
+								<b>Agência:</b> 29605
+							</div>
+							<div class="col-md-4 mt-1 mb-2">
+								<b>Conta:</b> 180470-x
+							</div>
+						</div>
+
+						<h6 class="text-purple mt-3"><b>CONTATO</b></h6>
+
+						<div class="row">
+							<div class="col-md-12">
+								<div class="input-group mb-2 mt-1">
+									<input type="text" name="address" class="form-dnm" placeholder="endereço">
+								</div>
+							</div>
+
+							<div class="col-md-2">
+								<div class="input-group mb-2 mt-1">
+									<input type="text" name="number" class="form-dnm" placeholder="n°">
+								</div>
+							</div>
+							<div class="col-md-5">
+								<div class="input-group mb-2 mt-1">
+									<input type="text" name="complement" class="form-dnm" placeholder="complemento">
+								</div>
+							</div>
+							<div class="col-md-5">
+								<div class="input-group mb-2 mt-1">
+									<input type="text" name="cep" class="form-dnm" placeholder="cep">
+								</div>
+							</div>
+
+							<div class="col-md-12">
+								<div class="input-group mb-2 mt-1">
+									<input type="text" name="reference" class="form-dnm" placeholder="ponto de referência">
+								</div>
+							</div>
+
+							<div class="col-md-5">
+								<div class="input-group mb-2 mt-1">
+									<input type="text" name="phone" class="form-dnm" placeholder="celular">
+								</div>
+							</div>
+							<div class="col-md-7">
+								<div class="input-group mb-2 mt-1">
+									<input type="email" name="email" class="form-dnm" placeholder="email">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<h5 class="mt-3"><b>PROBLEMAS</b></h5>
+
+				<div class="row no-gutters text-medium">
+					<div class="col-lg-3 text-muted-dmn">
+						Atrasar até 15 min
+						<ul class="list-inline problems">
+							<li class="list-inline-item checked"></li>
+							<li class="list-inline-item checked"></li>
+							<li class="list-inline-item"></li>
+							<li class="list-inline-item"></li>
+							<li class="list-inline-item"></li>
+							<li class="list-inline-item"></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 text-muted-dmn">
+						Não cumprir os procedimentos
+						<ul class="list-inline problems">
+							<li class="list-inline-item checked"></li>
+							<li class="list-inline-item"></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 text-muted-dmn">
+						Atrasar de 15 - 60 min
+						<ul class="list-inline problems">
+							<li class="list-inline-item checked"></li>
+							<li class="list-inline-item checked"></li>
+							<li class="list-inline-item"></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 text-muted-dmn">
+						Cancelar com antecedência (12h+)
+						<ul class="list-inline problems">
+							<li class="list-inline-item checked"></li>
+							<li class="list-inline-item checked"></li>
+							<li class="list-inline-item"></li>
+						</ul>
+					</div>
+					<div class="col-lg-1 text-muted-dmn">
+						Faltar
+						<ul class="list-inline problems">
+							<li class="list-inline-item"></li>
+						</ul>
+					</div>
+				</div>
+
+				<ul class="nav nav-tabs mt-3">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Agenda</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pedidos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Avaliações</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Carteira</a>
+					</li>
+				</ul>
+
+				<div class="content-tabs d-flex flex-column justify-content-center align-items-center">
+					<div class="container">
+						<h3 class="m-5 text-bolder text-large text-center">
+							<strong>MÉDIA AVALIAÇÕES 4,8 </strong>
+							<img src="images/icons/star.png" height="15px">
+							<img src="images/icons/star.png" height="15px">
+							<img src="images/icons/star.png" height="15px">
+							<img src="images/icons/star.png" height="15px">
+							<img src="images/icons/star.png" height="15px">
+							<img src="images/icons/star-half.png" height="15px">
+						</h3>
+
+						<div class="row">
+							<div class="col-lg-6 d-inline-flex text-medium p-3 flex-wrap flex-sm-nowrap justify-content-center">
+								<div class="photo-user border-purple">
+									<img src="images/users/default.png">
+								</div>
+
+								<div class="ml-3 d-flex flex-column">
+									<b>
+										Adriana Cardozo
+
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+									</b>
+									<i class="m-0">A Maria é um ser humano incrível, um anjo que cuidou da minha casa com total carinho e dedicação. Extremamente responsável. Eu super indico ela e agradeço de coração por ter conhecido essa pessoa maravilhosa! Obrigada por tudo, até a próxima Maria!</i>
+								</div>
+							</div>
+
+							<div class="col-lg-6 d-inline-flex text-medium p-3 flex-wrap flex-sm-nowrap justify-content-center">
+								<div class="photo-user border-purple">
+									<img src="images/users/default.png">
+								</div>
+
+								<div class="ml-3 d-flex flex-column">
+									<b>
+										Adriana Cardozo
+
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+									</b>
+									<i class="m-0">A Maria é um ser humano incrível, um anjo que cuidou da minha casa com total carinho e dedicação. Extremamente responsável. Eu super indico ela e agradeço de coração por ter conhecido essa pessoa maravilhosa! Obrigada por tudo, até a próxima Maria!</i>
+								</div>
+							</div>
+
+							<div class="col-lg-6 d-inline-flex text-medium p-3 flex-wrap flex-sm-nowrap justify-content-center">
+								<div class="photo-user border-purple">
+									<img src="images/users/default.png">
+								</div>
+
+								<div class="ml-3 d-flex flex-column">
+									<b>
+										Adriana Cardozo
+
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+									</b>
+									<i class="m-0">A Maria é um ser humano incrível, um anjo que cuidou da minha casa com total carinho e dedicação. Extremamente responsável. Eu super indico ela e agradeço de coração por ter conhecido essa pessoa maravilhosa! Obrigada por tudo, até a próxima Maria!</i>
+								</div>
+							</div>
+
+							<div class="col-lg-6 d-inline-flex text-medium p-3 flex-wrap flex-sm-nowrap justify-content-center">
+								<div class="photo-user border-purple">
+									<img src="images/users/default.png">
+								</div>
+
+								<div class="ml-3 d-flex flex-column">
+									<b>
+										Adriana Cardozo
+
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+									</b>
+									<i class="m-0">A Maria é um ser humano incrível, um anjo que cuidou da minha casa com total carinho e dedicação. Extremamente responsável. Eu super indico ela e agradeço de coração por ter conhecido essa pessoa maravilhosa! Obrigada por tudo, até a próxima Maria!</i>
+								</div>
+							</div>
+
+							<div class="col-lg-6 d-inline-flex text-medium p-3 flex-wrap flex-sm-nowrap justify-content-center">
+								<div class="photo-user border-purple">
+									<img src="images/users/default.png">
+								</div>
+
+								<div class="ml-3 d-flex flex-column">
+									<b>
+										Adriana Cardozo
+
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+									</b>
+									<i class="m-0">A Maria é um ser humano incrível, um anjo que cuidou da minha casa com total carinho e dedicação. Extremamente responsável. Eu super indico ela e agradeço de coração por ter conhecido essa pessoa maravilhosa! Obrigada por tudo, até a próxima Maria!</i>
+								</div>
+							</div>
+
+							<div class="col-lg-6 d-inline-flex text-medium p-3 flex-wrap flex-sm-nowrap justify-content-center">
+								<div class="photo-user border-purple">
+									<img src="images/users/default.png">
+								</div>
+
+								<div class="ml-3 d-flex flex-column">
+									<b>
+										Adriana Cardozo
+
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+										<img src="images/icons/star.png" height="12px">
+									</b>
+									<i class="m-0">A Maria é um ser humano incrível, um anjo que cuidou da minha casa com total carinho e dedicação. Extremamente responsável. Eu super indico ela e agradeço de coração por ter conhecido essa pessoa maravilhosa! Obrigada por tudo, até a próxima Maria!</i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row m-4">
+				<div class="col-12 d-inline-flex justify-content-center align-items-center flex-wrap">
+					<div class="btn-rounded btn-outline">excluir</div>
+					<div class="btn-rounded btn-outline">desativar</div>
+					<div class="btn-rounded">salvar</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- Mask Plugin -->
+	<script src="node_modules/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("input[name='cep']").mask('00000-000');
+			$("input[name='phone']").mask('(00) 00000-0000');
+		});
+
+		$("#sidebarCollapse").click(function(){
+			$("nav.sidebar").toggleClass('active');
+		});
+
+		$(".backdrop").click(function(){
+			$("nav.sidebar").toggleClass('active');
+		});
+	</script>
+</body>
+</html>
